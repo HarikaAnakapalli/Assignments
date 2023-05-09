@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+      var name="Harika";
+      document.write(name+"<br>"+"<br>");
+
+      var name1="Harika";
+      document.write("<i>"+name1+"</i>"+"<br>"+"<br>")
+
+      var City="Srikakulam";
+      document.write(City);
+
+      let data=["Singing", "writing","browsing","cooking"];
+      let list=document.createElement("ul");
+
+      for(let i=0; i<data.length; i++){
+        let item=document.createElement("li")
+        item.appendChild(document.createTextNode(data[i]));
+        list.appendChild(item);
+
+      }
+      document.body.appendChild(list)
+
+</script>
+<h3>My Hobbies</h3>
+<ul>
+    <li>Singig</li>
+    <li>Writing</li>
+    <li>cooking</li>
+</ul>
+
+</body>
+</html>
